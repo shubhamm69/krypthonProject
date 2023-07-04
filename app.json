@@ -4,6 +4,7 @@
     "slug": "krypthonProject",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme":"com.auth.docLogin",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -15,16 +16,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "com.auth.docLogin"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.auth.docLogin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be629158-4d5c-4894-90cd-74b723c4370d"
+      }
     }
   }
 }
